@@ -60,8 +60,8 @@ A banking institution ran a direct marketing campaign based on phone calls. Ofte
 	- Gradient Boosting roc_auc score: 0.79391
 
 #### Model Ensemble
-	- Voting classifier for Gradient Boosting, Neural Network and LDA
-	- Poor man's Stacking Gradient Boosting, Nerual Network and LDA
+	- Voting classifier for Gradient Boosting, Neural Network and LDA 0.79073
+	- Poor man's Stacking Gradient Boosting, Nerual Network and LDA 0.67904
 
 #### Resampling Techniques
 	- RandomUnderSampler 
