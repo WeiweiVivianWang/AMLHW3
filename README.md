@@ -16,7 +16,7 @@
 ##### Files:
 
 - [hw3_starter_notebook.ipynb](./hw3_starter_notebook.ipynb)
-- [preprocessing_rent.py](./preprocessing_rent.py)
+
 
 
 *****
