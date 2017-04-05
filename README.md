@@ -1,5 +1,3 @@
-# homework-iii-starter
-the starter repository for hw3
 
 [![Build Status](https://travis-ci.com/AppliedMachineLearning/homework-iii-WeiweiVivianWang.svg?token=FY3cqhRLkpqpLqmFhgu9&branch=master)](https://travis-ci.com/AppliedMachineLearning/homework-iii-WeiweiVivianWang)
 
@@ -34,7 +32,7 @@ A banking institution ran a direct marketing campaign based on phone calls. Ofte
 
 #### Data Cleaning
 
-	- load the data
+	- load data
 	- Split Data into X and y
 	- Define Parameters
 	- Split Data into Random Training and Test Subsets
@@ -43,15 +41,23 @@ A banking institution ran a direct marketing campaign based on phone calls. Ofte
 	- Get Dummy variables for categorical variables
 
 	 	
-	
-The data was filtered to remove all observations where the response variable (`UF17`) is missing. Then, the data was randomly split into a training and test subset. Missing values in the data were then recoded as `NaN`s. Next, all features that were specific to the tenant—or were leaking information about the response variable—were removed. This reduced the number of features from 196 to 73. Missing values were then imputed based on the median for continuous values and the mode for categorical values. Finally, the categorical features were encoded as one-hot.
 
 #### Model Set1 
 
-The model of choice for this assignment is the Ridge Regression because the inclusion of a penalty term `alpha` is able to reduce overfitting. Grid search was performed to determine the ideal value for `alpha`, which turns out to be `0.01` in this implementation. The model was also cross-validated using 10 iterations of shuffle-split cross-validation on the training set. Shuffle-split was chosen because it randomly shuffles the data before splitting it into the training and validation subsets. This led to an accuracy of 53.8% on the test set. The script `test_rent.py` ensures that the model is at least 50% accurate.
+	- Logistic Regression CV roc_auc score:0.78362	
+	- SVM roc_auc score: 0.71146
+	- QDA roc_auc score: 0.74557
+	- Nerual Network roc_auc score: 0.81806
+	- LDA roc_auc score: 0.78698
 
 
 #### Model Set2
+
+	- Random Forest roc_auc score:0.74607	
+	- XGBoost roc_auc score: 0.7897
+	- AdaBoost roc_auc score: 0.76681
+	- Extra Trees roc_auc score: 0.76682
+	- Gradient Boosting roc_auc score: 0.79391
 
 #### Model Ensemble
 
