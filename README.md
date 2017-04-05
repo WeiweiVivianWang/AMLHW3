@@ -23,7 +23,7 @@
 
 #### Model Performance
 
-Best model with largest roc_auc score, 0.81806 is Neural Network classifier.
+Best model with largest roc_auc score, 0.81806, is Neural Network classifier.
 
 
 #### Overview
