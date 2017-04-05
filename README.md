@@ -23,7 +23,7 @@
 
 #### Model Performance
 
-Test Set R<sup>2</sup>: 0.538
+Best model with largest roc_auc score Neural Network <sup>2</sup>: 0.81806
 
 
 #### Overview
@@ -32,7 +32,7 @@ A banking institution ran a direct marketing campaign based on phone calls. Ofte
 
 #### Data Cleaning
 
-	- load data
+	- load data  
 	- Split Data into X and y
 	- Define Parameters
 	- Split Data into Random Training and Test Subsets
