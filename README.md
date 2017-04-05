@@ -72,7 +72,3 @@ A banking institution ran a direct marketing campaign based on phone calls. Ofte
 
 
 
-There are two main files and one folder for data
-1) .travis.yml: To configure the Travis and set the environment for test
-2) hw3_starter_notebook.ipynb: The file containing the codes
-
